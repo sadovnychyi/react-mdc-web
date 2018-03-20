@@ -4,6 +4,7 @@
   "description": "React web components for Material Design",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
+  "sideEffects": false,
   "author": "kradio3",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": "kradio3/react-mdc-web",
@@ -51,7 +52,8 @@
     "LICENSE.md",
     "README.md",
     "lib/",
-    "out/"
+    "out/",
+    "src/"
   ],
   "scripts": {
     "preversion": "npm test",
